@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+:root {
+--color-primarynutmeg: hsl(14, 45%, 36%);
+--color-primaryDarkRaspberry: hsl(332, 51%, 32%);
+--color-NeutralWhite: hsl(0, 0%, 100%);
+--color-NeutralRoseWhite: hsl(330, 100%, 98%);
+--color-NeutralEggshell:  hsl(30, 54%, 90%);
+--color-NeutralLightGrey: hsl(30, 18%, 87%);
+--color-WengeBrown: hsl(30, 10%, 34%);
+--color-DarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+margin: 0 auto;
+text-align: center;
+font-size: 16px;
+font-weight: 400px;
+font-family: 'Young Serif', sans-serif;
+max-width: 1440px;
+background-color: var(--color-NeutralEggshell);
+  
+}
+
+.container {
+margin:20px auto;
+padding: 20px;
+background-color: var(--color-NeutralWhite);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+text-align: left;
+border-radius: 20px;
+
+}
+
+.banner-image-container {
+width: 100%;
+    
+}
+
+.banner-image {
+width: 100%;
+border-radius: 10px;
+
+}
+
+.preparation-time {
+background-color: var(--color-NeutralRoseWhite);
+width: 100%;
+color: var(--color-DarkCharcoal);
+
+}
+
+.preparation-time h4 {
+color: var(--color-primaryDarkRaspberry);
+
+}
+.preparation-time ul li span {
+font-weight: 600;
+color: var(--color-DarkCharcoal);
+
+}
+
+.ingredients-section {
+border-bottom: 1px solid ;
+}
+
+.ingredients-section  h3 {
+color: var(--color-primarynutmeg);
+
+}
+
+.ingredients-section ul li {
+color: var(--color-DarkCharcoal);
+}
+
+.instruction-section {
+border-bottom: 1px solid ;
+}
+
+.instruction-section h3 {
+color: var(--color-primarynutmeg);
+}
+
+.instruction-section UL li {
+color: var(--color-DarkCharcoal); 
+}
+
+.nutrition-section h3 {
+color: var(--color-primarynutmeg);
+}
+
+#nutrition-table {
+border-collapse: collapse;
+width: 80%;
+}
+
+#nutrition-table td {
+text-align: left;
+padding: 10px;
+border-bottom: 1px solid var(--color-NeutralLightGrey);
+}
+#nutrition-table td:nth-child(even) {
+color: var(--color-primarynutmeg);
+font-weight: 700;
+}
+
+.attribution { 
+font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
